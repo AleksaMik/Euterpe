@@ -1,5 +1,9 @@
 {
     "scripts": {
         "start": "index.js"
+    },
+    "dependencies": {
+        "inquirer": "^9.1.0",
+        "node": "^16.17.0"
     }
 }
