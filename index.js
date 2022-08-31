@@ -1,12 +1,12 @@
 var inquirer = require ('inquirer');
-var mysql = require ('mysql');
+var mysql = require ('mysql2');
 var cTable = require ('console.table');
 
 var connection = mysql.createConnection({
     host: "localhost",
-    port:5000,
+    port:3306,
     user:"root",
-    password:" ",
+    password:"",
     database: "employee_tracker"
 });
 
@@ -15,7 +15,7 @@ connection.connect ((err) => {
     runSearch();
 });
 function runSearch() {
-    inquiirer
+    inquirer
     .prompt({
         name: "selection",
         type:"list",
@@ -111,7 +111,7 @@ function runSearch() {
             });
            };
 
-function lookupDepts(){
+function lookUpDepts(){
 connection.query("SELECT * FROM department", function (err, data) {
   if (err) throw err;
   for (i = 0; i < data.length; i++) {
@@ -296,7 +296,6 @@ function addEmployee() {
               })
             })
         })
-        //})
       })
   })
   };
