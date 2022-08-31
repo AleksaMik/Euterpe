@@ -10,10 +10,8 @@ CREATE TABLE employee (
   role_id INT,
   manager_id INT,
   PRIMARY KEY (id),
-    -- FOREIGN KEY(role_id)
-    -- REFERENCES role(id),
-    FOREIGN KEY(manager_id)
-    REFERENCES employee(id)
+  FOREIGN KEY(manager_id)
+  REFERENCES employee(id)
 
 );
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Ron", "Paul", 1, 1);
