@@ -1,5 +1,15 @@
 # Euterpe
 
+<img width="1019" alt="Screen Shot 2022-09-28 at 11 17 51 AM" src="https://user-images.githubusercontent.com/105229148/192832810-77a1350a-b9de-4564-b689-8814140057ad.png">
+
+
+<img width="1024" alt="Screen Shot 2022-09-28 at 11 18 13 AM" src="https://user-images.githubusercontent.com/105229148/192832862-f478ee42-2d9e-460f-9961-e8b4703a2fc7.png">
+
+<img width="1028" alt="Screen Shot 2022-09-28 at 11 18 29 AM" src="https://user-images.githubusercontent.com/105229148/192832908-0da52ec1-d95b-4da4-ba5e-ab7e3cae47cd.png">
+
+
+
+
 ## User Story
 ```
 As a business owner
