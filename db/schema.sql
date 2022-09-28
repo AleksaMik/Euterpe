@@ -10,19 +10,19 @@ CREATE TABLE employee (
   role_id INT,
   manager_id INT,
   PRIMARY KEY (id),
-  FOREIGN KEY(manager_id)
+  FOREIGN KEY(manager_id),
   REFERENCES employee(id)
 
 );
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Ron", "Paul", 1, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Frederick", "Douglas", 2, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Tulsi", "Gabbard", 4, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Mos", "Def", 3, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Chester", "Bennington", 5, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Seth", "Gerlach", 2, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Gary", "Oldman", 3, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Donald", "Duck", 1, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Winnie", "the Pooh", 2, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("JoJo", "Rabbit", 4, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Harley", "Queen", 3, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Bruce", "Wayne", 5, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Frodo", "Baggins", 2, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Elvis", "Presley", 3, 1);
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Harry", "Potter", 1, 1 );
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Robert", "Pattinson", 1, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Peter", "Parker", 1, 1);
 
 
 CREATE TABLE role (
@@ -31,8 +31,6 @@ CREATE TABLE role (
   salary DECIMAL NOT NULL,
   department_id INT,
   PRIMARY KEY (id)
-  -- FOREIGN KEY(department_id)
-  -- REFERENCES department(id)
 );
 insert into role(title, salary, department_id) values('Manager', 5000000, 1);
 insert into role(title, salary, department_id) values('Engineer', 1000000, 2);
