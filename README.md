@@ -38,4 +38,4 @@ So that I can organize and plan my business
 ## Links
 
   - [Project Repo](https://github.com/AleksaMik/Euterpe)
-- [link to demo]()
+- [link to demo](https://drive.google.com/file/d/1bUuB2fKs79Z83xCtF4izpmOjngKOv1zo/view)
