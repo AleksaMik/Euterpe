@@ -49,3 +49,4 @@ So that I can organize and plan my business
 
   - [Project Repo](https://github.com/AleksaMik/Euterpe)
 - [link to demo](https://drive.google.com/file/d/11wpEoxc3De9b59oWxnh-amDyTCUJkaab/view)
+- [youtube demo link](https://youtu.be/-QpJyQvnLKA)
